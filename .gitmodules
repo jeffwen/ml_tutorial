@@ -1,0 +1,3 @@
+[submodule "nn-from-scratch"]
+	path = nn-from-scratch
+	url = https://github.com/dennybritz/nn-from-scratch.git
