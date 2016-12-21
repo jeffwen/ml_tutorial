@@ -86,7 +86,7 @@ def regression_objective_vect(theta, X, Y):
     
     j = (X.dot(theta) - Y)**2
 
-    return j/(2.0*m)
+    return sum(j)/(2.0*m)
 
 def gradient_vect(theta, X, Y):
     m, n = X.shape
@@ -105,11 +105,11 @@ j_theta_history = []
 
 t0 = time.time()
 res = scipy.optimize.minimize(
-    fun=regression_objective,
+    fun=regression_objective_vect,
     x0=np.random.rand(n),
     args=(train_X, train_y),
     method='bfgs',
-    jac=gradient,
+    jac=gradient_vect,
     options={'maxiter': 200, 'disp': True},
     callback=lambda x: j_theta_history.append(regression_objective(x, train_X, train_y)),
 )
