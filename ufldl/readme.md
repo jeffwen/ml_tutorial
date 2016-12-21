@@ -6,7 +6,7 @@ Notes from going through the following tutorial:
 
 ## Supervised Learning and Optimization
 
-* Linear Regression
+* [Linear Regression](ex1/linear_regression.py)
     * Implemented batch gradient descent in the naive (loop) approach and also the vectorized approach
     * Plotted the actual vs. the predicted and calculated the RMSE for the predictions
     
