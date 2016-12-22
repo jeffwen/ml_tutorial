@@ -9,5 +9,7 @@ Notes from going through the following tutorial:
 * [Linear Regression](ex1/linear_regression.py)
     * Implemented batch gradient descent in the naive (loop) approach and also the vectorized approach
     * Plotted the actual vs. the predicted and calculated the RMSE for the predictions
-    
+* [Logistic Regression](ex1/log_regression.py)
+    * Implemented batch gradient descent in the naive (loop) approach and also the vectorized approach
+    * Plotted the cost function convergence and calculated accuracy
     
