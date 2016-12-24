@@ -13,4 +13,4 @@ Notes from going through the following tutorial:
     * Implemented batch gradient descent in the naive (loop) approach and also the vectorized approach
     * Plotted the cost function convergence and calculated accuracy
 * [Gradient Checking](ex1/gradient_checker.py)
-	* Short function to test whether or not the gradient calculated from function is close to gradient as calculated from definition of a derivative ($\lim \limits_{\epsilon \to 1} \frac{J(\theta+\epsilon)-J(\theta-\epsilon)}{2\epsilon}$)
+	* Short function to test whether or not the gradient calculated from function is close to gradient as calculated from definition of a derivative ![derivative](http://bit.ly/2ibjZKt)
