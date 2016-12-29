@@ -14,3 +14,5 @@ Notes from going through the following tutorial:
     * Plotted the cost function convergence and calculated accuracy
 * [Gradient Checking](ex1/gradient_checker.py)
 	* Short function to test whether or not the gradient calculated from function is close to gradient as calculated from definition of a derivative ![derivative](http://mathurl.com/j5wrjje.png)
+* [Softmax Regression](ex1/softmax_regression.py)
+    * Implemented softmax regression (multinomial version of logistic regression)

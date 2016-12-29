@@ -109,6 +109,7 @@ def gradient_vect(theta, X, Y):
     return -temp_gradient.flatten()
 
 
+## need to update this gradient checker! ##
 def check_gradient(theta, X, Y, eps = 1e-4):
 
     eps_matrix = eps * np.identity(theta.shape[0])
